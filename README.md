@@ -16,15 +16,20 @@ This project is designed to help users receive notifications about cheap flight 
 - __Support for Indirect Flights:__ Now includes support for notifying users about cheaper indirect flight options.
 
 ## How It Works
+
 1. __User Sign-Up:__ Users fill out a Google Form to sign up for notifications.
+   
 ![](https://github.com/AlvinChin1608/day40_100/blob/main/Google_Form_Screenshot.png)
 
 2. __Data Extraction:__ The SHEETY API extracts user emails from the Google Form responses.
+   
 ![](https://github.com/AlvinChin1608/day40_100/blob/main/Google_Sheet_Screenshot.png)
 
 3. __Flight Price Monitoring:__ The system monitors flight prices including in-direct flights and then compares them with the listed prices on the Google Sheet.
+   
 ![](https://github.com/AlvinChin1608/day40_100/blob/main/Pycharm_console_Screenshot.png)
    
 4. __Notification:__ If a flight price drops below the listed price, users receive an email notification. The system now also checks for cheaper indirect flights and notifies users accordingly.
+   
 ![](https://github.com/AlvinChin1608/day40_100/blob/main/Notification_Email_Screenshot.PNG
 )
