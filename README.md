@@ -10,8 +10,8 @@ Additionally, I have chosen to include the beginner, intermediate and advanced i
 This project is designed to help users receive notifications about cheap flight deals. Users can fill out a Google Form to provide their credentials and opt-in to receive notifications. The system uses the SHEETY API to extract user emails from the Google Form responses and automatically sends notifications if any flight price drops below the listed price on the Google Sheet.
 
 ## Features
-- __Google Form Integration:__ Collects user credentials and email addresses from a Google Form.
-- __SHEETY API Integration:__ Extracts user emails from the Google Form responses.
+- __Google Form Integration:__ Collects user credentials and email addresses from a Google Form and linked it to a Google Sheet.
+- __SHEETY API Integration:__ Extracts user emails from the Google sheet.
 - __Automatic Notifications:__ Sends emails to users when flight prices drop below the listed price.
 - __Support for Indirect Flights:__ Now includes support for notifying users about cheaper indirect flight options.
 
